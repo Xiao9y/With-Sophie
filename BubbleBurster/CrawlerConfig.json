@@ -1,1 +1,7 @@
-{}
+{
+  "https://twitter.com/": {
+    "selector": [
+      "div[data-testid=\"tweetText\"]"
+    ]
+  }
+}
