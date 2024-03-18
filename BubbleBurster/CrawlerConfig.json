@@ -3,5 +3,10 @@
     "selector": [
       "div[data-testid=\"tweetText\"]"
     ]
+  },
+  "https://www.huxiu.com": {
+    "selector": [
+      "div[id=\"article-content\"]"
+    ]
   }
 }
