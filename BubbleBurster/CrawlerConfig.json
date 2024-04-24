@@ -22,5 +22,5 @@
         "selector": [
             "shreddit-post[view-context=\"CommentsPage\"]"
         ]
-    },
+    }
 }
