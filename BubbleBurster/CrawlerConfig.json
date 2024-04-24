@@ -1,12 +1,26 @@
 {
-  "https://twitter.com": {
-    "selector": [
-      "div[data-testid=\"tweetText\"]"
-    ]
-  },
-  "https://www.huxiu.com": {
-    "selector": [
-      "div[id=\"article-content\"]"
-    ]
-  }
+    "https://twitter.com": {
+        "regExp": "^https:\\/\\/twitter\\.com\\/.*$",
+        "selector": [
+            "div[data-testid=\"tweetText\"]"
+        ]
+    },
+    "https://www.huxiu.com": {
+        "regExp": "^https:\\/\\/.*\\.huxiu\\.com(\\/.*)?$",
+        "selector": [
+            "div[id=\"article-content\"]"
+        ]
+    },
+    "https://www.qianlong.com": {
+        "regExp": "^https:\\/\\/.*\\.qianlong\\.com(\\/.*)?$",
+        "selector": [
+            "div[class=\"row cont\"]"
+        ]
+    },
+    "https://www.reddit.com": {
+        "regExp": "^https:\\/\\/.*\\.reddit\\.com(\\/.*)?$",
+        "selector": [
+            "shreddit-post[view-context=\"CommentsPage\"]"
+        ]
+    },
 }
