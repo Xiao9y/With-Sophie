@@ -5,6 +5,12 @@
             "div[data-testid=\"tweetText\"]"
         ]
     },
+    "https://x.com": {
+        "regExp": "^https:\\/\\/x\\.com\\/.*$",
+        "selector": [
+            "div[data-testid=\"tweetText\"]"
+        ]
+    },
     "https://www.huxiu.com": {
         "regExp": "^https:\\/\\/.*\\.huxiu\\.com(\\/.*)?$",
         "selector": [
